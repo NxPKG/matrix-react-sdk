@@ -1299,10 +1299,17 @@
   resolved "https://registry.yarnpkg.com/@babel/regjsgen/-/regjsgen-0.8.0.tgz#f0ba69b075e1f05fb2825b7fad991e7adbb18310"
   integrity sha512-x/rqGMdzj+fWZvCOYForTghzbtqPDZ5gPwaoNGHdgDfF2QA/XZbCBp4Moo5scrkAMPhB7z26XM/AaHuIJdgauA==
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.12.13", "@babel/runtime@^7.12.5", "@babel/runtime@^7.13.10", "@babel/runtime@^7.14.6", "@babel/runtime@^7.15.4", "@babel/runtime@^7.17.9", "@babel/runtime@^7.23.2", "@babel/runtime@^7.5.5", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7", "@babel/runtime@^7.9.2":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.12.13", "@babel/runtime@^7.12.5", "@babel/runtime@^7.13.10", "@babel/runtime@^7.14.6", "@babel/runtime@^7.15.4", "@babel/runtime@^7.23.2", "@babel/runtime@^7.5.5", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7", "@babel/runtime@^7.9.2":
   version "7.23.6"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.23.6.tgz#c05e610dc228855dc92ef1b53d07389ed8ab521d"
   integrity sha512-zHd0eUrf5GZoOWVCXp6koAKQTfZV07eit6bGPmJgnZdnSAvvZee6zniW2XMF7Cmc4ISOOnPy3QaSiIJGJkVEDQ==
+  dependencies:
+    regenerator-runtime "^0.14.0"
+
+"@babel/runtime@^7.17.9":
+  version "7.23.7"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.23.7.tgz#dd7c88deeb218a0f8bd34d5db1aa242e0f203193"
+  integrity sha512-w06OXVOFso7LcbzMiDGt+3X7Rh7Ho8MmgPoWU3rarH+8upf+wSU/grlGbWzQyr3DkdN6ZeuMFjpdwW0Q+HxobA==
   dependencies:
     regenerator-runtime "^0.14.0"
 
@@ -1909,10 +1916,10 @@
   resolved "https://registry.yarnpkg.com/@matrix-org/matrix-sdk-crypto-wasm/-/matrix-sdk-crypto-wasm-3.5.0.tgz#997d63ae12304142513fe93c5e0872ff10ca30b4"
   integrity sha512-7as0jJTje+rFu9AF8LEO0tmhtHcou2YQnZOtpiP+lS5rDfIPv5CL8/eb45fzDnbQybt9Jm5zdjBdiLBEaUg2dQ==
 
-"@matrix-org/matrix-wysiwyg@2.17.0":
-  version "2.17.0"
-  resolved "https://registry.yarnpkg.com/@matrix-org/matrix-wysiwyg/-/matrix-wysiwyg-2.17.0.tgz#68c83da17826fb43828f0c1ddd8d6e0b9d155ae5"
-  integrity sha512-PZGSrNqKCSdUnyUVglEvHrV8uowU3JuWUlYYKBslYnnIrJHw9aS2nnCpLVqwACFD6N82+L+Net8ME9i3qy7BGQ==
+"@matrix-org/matrix-wysiwyg@2.24.0":
+  version "2.24.0"
+  resolved "https://registry.yarnpkg.com/@matrix-org/matrix-wysiwyg/-/matrix-wysiwyg-2.24.0.tgz#d32699fca9ff6c6fcc87b007d085a56f8537bde5"
+  integrity sha512-+m0Z/65RWh2iR5hE9lDE8uKlMfjE8YYTcnf74GIssgu7MgrQQ/6MOOTyf50HsU3LRgdjEyFz/+4m3LX6tetX7Q==
 
 "@matrix-org/olm@3.2.15":
   version "3.2.15"
@@ -1920,9 +1927,9 @@
   integrity sha512-S7lOrndAK9/8qOtaTq/WhttJC/o4GAzdfK0MUPpo8ApzsJEC0QjtwrkC3KBXdFP1cD1MXi/mlKR7aaoVMKgs6Q==
 
 "@matrix-org/react-sdk-module-api@^2.2.1":
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/@matrix-org/react-sdk-module-api/-/react-sdk-module-api-2.2.1.tgz#308bcb42a780200d3e7994235376784b51819379"
-  integrity sha512-+MXTMEapzGmhArUt86GYDQirOvm19+wvQLDApmHpUQvSZvYm7wOo1EwR9FFvSKve53fu+v6gI1grnj7YLzGQ9Q==
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@matrix-org/react-sdk-module-api/-/react-sdk-module-api-2.3.0.tgz#85be5cfc73be0494c13d4dc9050cb70c58d7a08b"
+  integrity sha512-x/ie44yaXNtE5AKcmQiW5yINVEIJ7IjjEc35vj6j52fM8tZ9XbJx9PANKSWsdd0NJp3OqyaeHftmN6ESfx4YoQ==
   dependencies:
     "@babel/runtime" "^7.17.9"
 
@@ -9012,9 +9019,9 @@ regenerate@^1.4.2:
   integrity sha512-zrceR/XhGYU/d/opr2EKO7aRHUeiBI8qjtfHqADTwZd6Szfy16la6kqD0MIUs5z5hx6AaKa+PixpPrR289+I0A==
 
 regenerator-runtime@^0.14.0:
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.14.0.tgz#5e19d68eb12d486f797e15a3c6a918f7cec5eb45"
-  integrity sha512-srw17NI0TUWHuGa5CFGGmhfNIeja30WMBfbslPNhf6JrqQlLN5gcrvig1oqPxiVaXb0oW0XRKtH6Nngs5lKCIA==
+  version "0.14.1"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.14.1.tgz#356ade10263f685dda125100cd862c1db895327f"
+  integrity sha512-dYnhHh0nJoMfnkZs6GmmhFknAGRrLznOu5nc9ML+EJxGvrx6H7teuevqVqCuPcPK//3eDrrjQhehXVx9cnkGdw==
 
 regenerator-transform@^0.15.2:
   version "0.15.2"
